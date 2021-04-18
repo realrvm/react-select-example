@@ -25,6 +25,9 @@ const styles = {
         width: "50%",
         height: 70,
         minHeight: 70,
+        border: 0,
+        outline: "none",
+        boxShadow: 0,
     }),
 };
 const App = () => <Select myFontSize="20px" options={options} styles={styles} />;
